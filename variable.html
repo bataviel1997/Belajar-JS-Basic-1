@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variable</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Variable</h1>
+
+      <img id="image" src="https://images.pexels.com/photos/13125805/pexels-photo-13125805.jpeg?auto=compress&cs=tinysrgb&w=300&h=500&dpr=1" alt="">
+    </main>
+
+    <script>
+      // declare cariable
+      let username;
+      // assigment variable
+      username = 'elbatavi';
+      // langsung
+      let email = 'elbatavi@gmail.com';
+      // tangkap element dgn id title
+      let title = document.getElementById('title');
+//  struktur id.properti css.properti= value;
+      title.style.color = 'red';
+      title.style.fontSize = '50px';
+      title.innerHTML = 'selamat malam';
+
+      // tangkap element img dgn id image
+      let image = document.getElementById('image')
+        image.src = 'https://images.pexels.com/photos/13125805/pexels-photo-13125805.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1'
+    </script>
+  </body>
+</html>
